@@ -1,10 +1,15 @@
+package com.shopping.Shopping.model;
+
 import com.shopping.Shopping.model.Customer;
 import jakarta.persistence.*;
+import lombok.Data;
+
 import java.time.LocalDate;
 import java.util.List;
 
 @Entity
 @Table(name = "orders")
+@Data
 public class Order {
 
     @Id

@@ -3,8 +3,10 @@ package com.shopping.Shopping.model;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
+import lombok.Data;
 
 @Entity
+@Data
 public class Customer {
 
     @Id

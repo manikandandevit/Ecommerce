@@ -1,8 +1,10 @@
 package com.shopping.Shopping.model;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
 @Entity
+@Data
 public class OrderItem {
 
     @Id
